@@ -1,0 +1,71 @@
+.dogodek {
+    background-color: white;
+    min-height:200px;
+    width:100%;
+    margin:0 auto;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:flex;
+    
+}
+
+#dogodek-slika{
+    min-width:40%;
+    background-color:rgb(225, 225, 225);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+}
+
+#dogodek-content{
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center
+}
+
+#news-link{
+    text-decoration:none;
+    font-weight:400;
+}
+
+.fa-solid.fa-image{
+    color: rgb(200, 200, 200);
+    font-size:25px;
+}
+
+.twit {
+    background-color: white;
+
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 200px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#profile-content{
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+#profile-img{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    margin-right:10px;
+}
+
+#likes, #retwets{
+    background-color:#0d6efd;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    padding: 4px 8px;
+}
+
+
+
